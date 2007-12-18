@@ -1,3 +1,5 @@
+%define python_sitearch %(%{__python} -c "from distutils.sysconfig import get_python_lib; print get_python_lib(1)")
+
 Summary:	LZO bindings for Python
 Name:		python-lzo
 Version:	1.08
