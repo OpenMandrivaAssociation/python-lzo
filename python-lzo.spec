@@ -10,6 +10,7 @@ Patch1:		python-lzo-1.08-nowarning.patch
 URL:		http://www.oberhumer.com/opensource/lzo/
 License:	GPLv2
 Group:		Development/Python
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	liblzo-devel python-devel
 
 %description
