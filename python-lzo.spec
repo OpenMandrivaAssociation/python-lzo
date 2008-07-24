@@ -3,7 +3,7 @@
 Summary:	LZO bindings for Python
 Name:		python-lzo
 Version:	1.08
-Release:	%mkrel 1
+Release:	%mkrel 3
 Source0:	http://www.oberhumer.com/opensource/lzo/download/LZO-v1/%{name}-%{version}.tar.gz
 Patch0:		python-lzo-1.08-build-against-lzo2.patch
 Patch1:		python-lzo-1.08-nowarning.patch
