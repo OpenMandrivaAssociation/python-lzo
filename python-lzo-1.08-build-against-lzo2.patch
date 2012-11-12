@@ -1,0 +1,13 @@
+--- python-lzo-1.08/setup.py.orig	2007-12-18 03:54:24.000000000 +0100
++++ python-lzo-1.08/setup.py	2007-12-18 03:54:44.000000000 +0100
+@@ -24,8 +24,8 @@ if sys.platform == "win32":
+     include_dirs.append(os.path.join(CURL_DIR, "include"))
+     extra_objects.append(os.path.join(CURL_DIR, "lzo.lib"))
+ else:
+-    libraries = ["lzo"]
+-    ##include_dirs.append("/usr/local/include")
++    libraries = ["lzo2"]
++    include_dirs.append("/usr/include/lzo")
+     ##library_dirs.append("/usr/local/lib")
+     ##runtime_library_dirs.append("/usr/local/lib")
+ 

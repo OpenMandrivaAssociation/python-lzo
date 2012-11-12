@@ -1,0 +1,11 @@
+--- python-lzo-1.08/setup.py~	2007-12-18 04:03:28.000000000 +0100
++++ python-lzo-1.08/setup.py	2007-12-18 04:03:57.000000000 +0100
+@@ -61,7 +61,7 @@ setup_args = get_kw(
+     maintainer="Markus F.X.J. Oberhumer",
+     maintainer_email="markus@oberhumer.com",
+     url="http://www.oberhumer.com/opensource/lzo/",
+-    licence="GNU General Public License (GPL)",
++    license="GNU General Public License (GPL)",
+     ext_modules=[ext],
+     long_description="""
+ This module provides Python bindings for the LZO data compression library.
