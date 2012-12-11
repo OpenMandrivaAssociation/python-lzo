@@ -38,3 +38,28 @@ rm -rf %{buildroot}
 %{python_sitearch}/lzo.so
 %{python_sitearch}/python_lzo*egg-info
 
+
+
+%changelog
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 1.08-5mdv2010.0
++ Revision: 442310
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 1.08-4mdv2009.0
++ Revision: 259701
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 1.08-3mdv2009.0
++ Revision: 247507
+- rebuild
+- fix no-buildroot-tag
+
+* Tue Dec 18 2007 Per Ã˜yvind Karlsen <peroyvind@mandriva.org> 1.08-1mdv2008.1
++ Revision: 131996
+- manually add python_sitearch macro due to rpm 4.4.2.2 crap^H^H^?\196?\164^Hbreakage
+- fix buildrequires
+- import python-lzo
+
+
+* Tue Dec 12 2007 Per Øyvind Karlsen <pkarlsen@mandriva.com> 1.08-1mdv2008.1
+- Initial release
