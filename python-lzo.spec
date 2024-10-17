@@ -7,7 +7,7 @@ Release:	6
 Source0:	http://www.oberhumer.com/opensource/lzo/download/LZO-v1/%{name}-%{version}.tar.gz
 Patch0:		python-lzo-1.08-build-against-lzo2.patch
 Patch1:		python-lzo-1.08-nowarning.patch
-URL:		http://www.oberhumer.com/opensource/lzo/
+URL:		https://www.oberhumer.com/opensource/lzo/
 License:	GPLv2
 Group:		Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
